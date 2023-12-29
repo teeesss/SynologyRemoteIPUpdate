@@ -16,11 +16,20 @@ Copy/Paste the following and replace: your_username, your_password, host.com, lo
 Only update base_path if your path is differentthan /volume1/homes - Otherwise don't edit
 
 ```
-username="your_username"                     ### Set your ftp username to host.com
-password="your_password"                     ### Set your ftp password for host.com
-host="host.com"                              ### Replace with your Web URL for hosting index.html
-localusername=local_username"                ### NAS username and were the crentialss/script will be located
-base_path="/volume1/homes/$localusername/"   ### Don't modify unless you know what you are doing
+### Set your ftp username to host.com
+username="your_username"
+
+### Set your ftp password for host.com
+password="your_password"
+
+### Replace with your Web URL for hosting index.html
+host="host.com"
+
+### NAS username and were the crentialss/script will be located
+localusername=local_username"
+
+### Don't modify unless you know what  you are doing
+base_path="/volume1/homes/$localusername/"
 ```
 
 ## Write and Exit File

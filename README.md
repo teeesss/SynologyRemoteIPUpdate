@@ -4,7 +4,7 @@ Remotely update your IP address to ensure VPN is active
 ## Prerequistes / Assumptions 
 - lftp installed - Example here: https://ingmarverheij.com/how-to-install-ipkg-on-synology-nas-ds212/
 - Directory created on remote host.com - For this example it would be /ip (Reference end of this document for more info)
-- Script and credentials will be in the /volume1/homes/$localusername < The user running the script. Set in ip_credentials.txt
+- Script and credentials will be in the /var/services/homes/$localusername < The user running the script. Set in ip_credentials.txt
 
 ## Create a separate file for credentials:
 Login to your Synology NAS and create the following file ip_credentials.txt
